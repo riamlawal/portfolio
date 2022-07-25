@@ -1,0 +1,119 @@
+.layout{
+	display: flex;
+
+
+}
+
+aside {
+
+    
+	background-color: darkred;
+	width: 20%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+    }
+
+main{
+	
+	background-color: whitesmoke;
+	width: 78%;
+	height: 100vh;
+	padding-left: 10px;
+	
+}
+
+footer{
+
+	background-color: yellowgreen;
+	width: 98%;
+	
+    }
+
+ aside img{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 3px solid black;
+
+}
+
+ aside ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+
+
+}
+
+ aside ul li{
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+main h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+
+main h2 ,h3 {
+	text-align: center;
+}
+
+main h2 {
+	text-decoration: underline ;
+}
+
+main h1 span {
+	color: darkred;
+	font-size: 60px;
+	font-family: "roboto", sans-serif, algeria; 
+}
+
+.fa-facebook{
+	color: blue;
+	font-size: 15px;
+}
+
+.fa-twitter{
+	color: blue;
+	font-size: 15px;
+}
+
+.fa-youtube{
+	color: black;
+	font-size: 15px;
+}
+
+.fa-house{
+	padding: 8px;
+}
+
+.fa-image{
+	padding: 8px;
+}
+
+.fa-bell{
+	padding: 8px;
+}
+
+.fa-phone{
+	padding: 8px;
+}
+
+main .icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.layout ul li  {
+	font-size: 4px;
+}
